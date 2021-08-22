@@ -156,7 +156,7 @@ li{
   .contacts-header{
       display: flex;
       align-items: center;
-      margin:  auto;
+      margin-left:  auto;
      
       
 }
@@ -213,36 +213,27 @@ li{
 
 /* banner */
 .banner{
- padding-right: 200px;
 
+padding-top: 200px;
+padding-bottom: 200px;
 background: var( --black-grey);
 
 
 }
 
  .banner__text{
-    text-align: center;
     
     font-size: 44px;
     font-weight: 900;
     line-height:1.36;
     text-align: center;
     text-transform: uppercase;
-   
     
-    
-    color: var(--white);
+     color: var(--white);
 
-    padding-top: 200px;
-   
 }
 
 
-.button-hero{
-    display: flex;
-    justify-content: center;
-    
-}
 
 .btn-text-banner{
 
@@ -252,11 +243,11 @@ background: var( --black-grey);
   cursor: pointer;
   color: var(--white);
   background: #2196F3;
+  display: block;
+  margin: auto;
+  margin-top: 30px;
 
-display: block;
-margin-bottom: 200px;
-margin-top: 30px;
- 
+  
 }
 
 .btn-text-banner:hover
@@ -265,7 +256,7 @@ margin-top: 30px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     color: var(--white);
- 
+    
 }
 /* /banner */
 
@@ -273,15 +264,12 @@ margin-top: 30px;
 
 .features{
     display: flex;
-    margin-top: 94px;
-    
-  
-
 }
 
 .description-item{
     margin-right: 30px;
-    
+    width: 270px;
+   
 }
 
 .description-item:last-child{
@@ -301,9 +289,9 @@ margin-top: 30px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-
     color: var(--black);
-}
+
+   }
 
 .description{
     font-style: normal;
@@ -313,19 +301,19 @@ margin-top: 30px;
     letter-spacing: 0.03em;
 
     color: var(--grey);
+
+    margin-top: 10px;
 }
 
 
 
 
 .technology{
-   
-    margin-top: 50px;
-
+    margin-bottom: 50px;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
-    line-height: 3.0;
+    line-height: 1.16;
     text-align: center;
     
     letter-spacing: 0.03em;
@@ -339,7 +327,9 @@ margin-top: 30px;
     margin-right: 0;
 }
 
-
+.img-technology{
+    display: block;
+}
 
 .technology-inner{
     display: flex;
@@ -360,28 +350,50 @@ margin-right: 30px;
 .inner-team{
     display: flex;
     margin-right: -30px;
+    
 }
 
 .inner-team .team{
-    flex-basis: calc(100% / 3);
+    /* flex-basis: calc(100% / 3); */
+    margin-right: 30px;
+    background-color: #ffff;
+
+    border-radius: 5px;
 }
 
 
+.team:last-child{
+    margin-right: 0px;
+   
+}
+
+
+.team-card{
+    display: block;
+
+    
+}
 
 .our-team{
+   
+  margin-bottom: 50px;
    font-style: normal;
     font-weight: bold;
     font-size: 36px;
-    line-height: 3.0;
+    line-height: 1.16;
     text-align: center;
+
+   
 }
 
 
 .name-developer{
-   margin-top: 30px;
-   margin-bottom: 10px;
-  
 
+   padding-top: 30px;
+  
+   width: 270px;
+   height: 40px;
+   
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -390,16 +402,20 @@ margin-right: 30px;
     letter-spacing: 0.03em;
 
     color: var(--black);
+   
 }
 
 .position{
-   
+    padding-top: 10px;
+
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 1.3;
     text-align: center;
     letter-spacing: 0.03em;
+
+   padding-bottom: 30px;
 
     color: var(--grey);
 
