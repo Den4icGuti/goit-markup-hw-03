@@ -161,13 +161,14 @@ li{
       align-items: center;
       margin-left:  auto;
      
-      
-}
+    }
 
   
-   .mail-header{
-       margin-right: 50px;
-   }
+   
+      .item{
+          margin-left: 50px;
+      }
+   
 
    .contacts-header.item:last-child{
        margin-right: 0;
@@ -397,7 +398,7 @@ margin-right: 30px;
 
 .name-developer{
 
-    padding-bottom: 10px;
+    margin-bottom: 10px;
   
    width: 270px;
    
@@ -413,7 +414,8 @@ margin-right: 30px;
 }
 
 .item-work{
-    padding-top: 30px;
+   padding-bottom: 30px;
+   padding-top: 30px;
     
 }
 
@@ -426,7 +428,7 @@ margin-right: 30px;
     text-align: center;
     letter-spacing: 0.03em;
 
-   padding-bottom: 30px;
+ 
 
     color: var(--grey);
 
@@ -443,12 +445,14 @@ margin-right: 30px;
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
-    line-height: 2.16;
+    line-height: 1.19;
     color: var(--white);
     text-decoration: none;
+
+    display: block;
+    margin-bottom: 20px;
   
-   
-}
+   }
 
 
 
@@ -564,7 +568,7 @@ margin-right: 30px;
 .buttons-group{
  display: flex;
  
- margin-bottom: 56px;
+ margin-bottom: 50px;
  
 }
 
@@ -576,13 +580,17 @@ margin-right: 30px;
 
  .btn-item{
 
- padding-left:8px;
+ margin-left:8px;
  justify-content: center;
 
 }
 
- .btn-item:last-child{
-     margin-left: 0;
+.btn-item:last-child{
+    margin-left: 8px;
+}
+
+ .btn-item:first-child{
+     margin-left: 0px;
  }
 
  
@@ -671,15 +679,16 @@ margin-top: calc(-1 * var(--presentation-set));
     
   
 .inner-text-present{
-    
-  
 
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 24px;
+    padding-right: 24px;
 
     
     border: 1px solid #EEEEEE; 
+
+    border-top: 1px solid  #EEEEEE;
     
 
   }
@@ -713,7 +722,7 @@ margin-top: calc(-1 * var(--presentation-set));
     
     color: var(--grey);
 
-     padding-top: 4px; 
+    margin-top: 4px; 
 
 
     
