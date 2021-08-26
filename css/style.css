@@ -69,9 +69,11 @@ li{
     color: var(--black);
     text-decoration: none;
 
-   
+   }
+
+
   
-}
+
 
 .web{
     color: var(--blue);
@@ -89,16 +91,11 @@ li{
     align-items: center;
 }
 
-  
-   /* очищает крайнюю геометрию */
-  .site-nav .item:not(:last-child)
-  {
-       margin-right: 50px; 
-  } 
-  
+.item{
+    margin-right: 50px;
+}
 
-  
-.text-studio{
+   .text-studio{
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -165,13 +162,11 @@ li{
 
   
    
-      .item{
-          margin-left: 50px;
-      }
+      
    
 
-   .contacts-header.item:last-child{
-       margin-right: 0;
+   .item:last-child{
+     margin-right: 0px;
    }
 
   .mail-header{
